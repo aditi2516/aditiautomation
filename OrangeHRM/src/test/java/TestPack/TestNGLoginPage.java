@@ -92,7 +92,7 @@ public class TestNGLoginPage {
 	{
 		System.out.println("TestC");
 		Assert.fail();
-		System.out.println("hi")
+		System.out.println("hi");
 	}
 	@Test
 	public void testD()
@@ -115,6 +115,7 @@ public class TestNGLoginPage {
 	public void afterTest() 
 	{
 		System.out.println("after test");
+		System.out.println("wecome");
 	}
 	@AfterClass
 	
