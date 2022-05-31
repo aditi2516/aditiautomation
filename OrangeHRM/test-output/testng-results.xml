@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-31T14:24:01 IST" name="Default suite" finished-at="2022-05-31T14:25:52 IST" duration-ms="111259">
+    <groups>
+    </groups>
+    <test started-at="2022-05-31T14:24:01 IST" name="Default test" finished-at="2022-05-31T14:25:52 IST" duration-ms="111259">
+      <class name="TestPack.TestNGLoginPage">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestPack.TestNGLoginPage@123ef382]" started-at="2022-05-31T14:24:01 IST" name="beforeMethod" finished-at="2022-05-31T14:24:18 IST" duration-ms="16491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:TestPack.TestNGLoginPage@123ef382]" started-at="2022-05-31T14:24:18 IST" name="beforeClass" finished-at="2022-05-31T14:24:20 IST" duration-ms="2450" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestPack.TestNGLoginPage@123ef382]" started-at="2022-05-31T14:24:20 IST" name="beforeMethod" finished-at="2022-05-31T14:24:36 IST" duration-ms="16000" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testA()[pri:0, instance:TestPack.TestNGLoginPage@123ef382]" started-at="2022-05-31T14:24:36 IST" name="testA" finished-at="2022-05-31T14:24:44 IST" duration-ms="7686" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testA -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestPack.TestNGLoginPage@123ef382]" started-at="2022-05-31T14:24:44 IST" name="afterMethod" finished-at="2022-05-31T14:24:47 IST" duration-ms="3214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestPack.TestNGLoginPage@123ef382]" started-at="2022-05-31T14:24:47 IST" name="beforeMethod" finished-at="2022-05-31T14:25:02 IST" duration-ms="15041" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testB()[pri:0, instance:TestPack.TestNGLoginPage@123ef382]" started-at="2022-05-31T14:25:02 IST" name="testB" finished-at="2022-05-31T14:25:12 IST" duration-ms="9669" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testB -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestPack.TestNGLoginPage@123ef382]" started-at="2022-05-31T14:25:12 IST" name="afterMethod" finished-at="2022-05-31T14:25:15 IST" duration-ms="3403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestPack.TestNGLoginPage@123ef382]" started-at="2022-05-31T14:25:15 IST" name="beforeMethod" finished-at="2022-05-31T14:25:30 IST" duration-ms="14736" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testC()[pri:0, instance:TestPack.TestNGLoginPage@123ef382]" started-at="2022-05-31T14:25:30 IST" name="testC" finished-at="2022-05-31T14:25:30 IST" duration-ms="8" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.fail(Assert.java:106)
+at TestPack.TestNGLoginPage.testC(TestNGLoginPage.java:94)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testC -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestPack.TestNGLoginPage@123ef382]" started-at="2022-05-31T14:25:30 IST" name="afterMethod" finished-at="2022-05-31T14:25:33 IST" duration-ms="3577" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestPack.TestNGLoginPage@123ef382]" started-at="2022-05-31T14:25:33 IST" name="beforeMethod" finished-at="2022-05-31T14:25:49 IST" duration-ms="15335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testD()[pri:0, instance:TestPack.TestNGLoginPage@123ef382]" started-at="2022-05-31T14:25:49 IST" name="testD" finished-at="2022-05-31T14:25:49 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testD -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestPack.TestNGLoginPage@123ef382]" started-at="2022-05-31T14:25:49 IST" name="afterMethod" finished-at="2022-05-31T14:25:52 IST" duration-ms="3526" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="Screenshots(org.testng.ITestResult)[pri:0, instance:TestPack.TestNGLoginPage@123ef382]" started-at="2022-05-31T14:25:52 IST" name="Screenshots" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1653987352759" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Can inject only one of <ITestContext, XmlTest> into a @AfterClass annotated Screenshots.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Can inject only one of <ITestContext, XmlTest> into a @AfterClass annotated Screenshots.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
+at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:439)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:353)
+at org.testng.internal.Parameters.createParameters(Parameters.java:708)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:217)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:130)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Screenshots -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:TestPack.TestNGLoginPage@123ef382]" started-at="2022-05-31T14:25:52 IST" name="afterTest" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1653987352769" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- TestPack.TestNGLoginPage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
