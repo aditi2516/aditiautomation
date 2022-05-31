@@ -92,6 +92,7 @@ public class TestNGLoginPage {
 	{
 		System.out.println("TestC");
 		Assert.fail();
+		System.out.println("hi")
 	}
 	@Test
 	public void testD()
