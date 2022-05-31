@@ -97,6 +97,7 @@ public class TestNGLoginPage {
 	public void testD()
 	{
 		System.out.println("TestD");
+		System.out.println("made changes in global reposiratory");
 	}
 	@AfterMethod
 	public void afterMethod() throws InterruptedException
