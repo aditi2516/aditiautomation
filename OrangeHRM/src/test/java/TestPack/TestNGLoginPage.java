@@ -116,6 +116,7 @@ public class TestNGLoginPage {
 	{
 		System.out.println("after test");
 		System.out.println("wecome");
+		System.out.println("automation branch created");
 	}
 	@AfterClass
 	
