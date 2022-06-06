@@ -1,6 +1,7 @@
 package util;
 
 import java.io.File;
+
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -33,7 +34,7 @@ public class UtilityClass {
 	 }
 	 public static String getexcellsheetdata(int r,int c) throws EncryptedDocumentException, IOException
 	 {
-		 String excellpath="\"C:\\Users\\Admin\\excellsheet.xlsx";
+		 String excellpath="C:\\Users\\Admin\\excellsheet.xlsx";
 		 FileInputStream file= new FileInputStream(excellpath);
 		 Workbook book=WorkbookFactory.create(file);
 		 Sheet sheet=book.getSheet(excellpath);
