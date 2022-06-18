@@ -41,6 +41,7 @@ public class TestClassLogin {
 	loginClass.clickOnLogout(driver);
 			System.out.println("weclome");
 			System.out.println("thanku");
+			System.out.println("New Change by tejaswini")
 			
 		
 
