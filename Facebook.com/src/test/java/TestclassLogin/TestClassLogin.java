@@ -40,6 +40,8 @@ public class TestClassLogin {
 	Thread.sleep(2000);
 	loginClass.clickOnLogout(driver);
 			System.out.println("weclome");
+			System.out.println("thanku");
+			
 		
 
 }
