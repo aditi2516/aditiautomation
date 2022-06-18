@@ -36,6 +36,7 @@ public class LoginTest {
 		
 		Logout logout =new Logout(driver);
 		logout.clickOnLogin();
+		System.out.println("hi");
 		
 		
 		
