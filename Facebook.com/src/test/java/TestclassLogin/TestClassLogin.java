@@ -39,6 +39,7 @@ public class TestClassLogin {
 	loginClass.clickOnyourProfil();
 	Thread.sleep(2000);
 	loginClass.clickOnLogout(driver);
+			System.out.println("weclome");
 		
 
 }
