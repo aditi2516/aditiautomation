@@ -22,7 +22,7 @@ public class AdminClass {
 	}
 	public void clickOnAdmin()
 	{
-		admin.click();
+		admin.click();  
 	}
 	public void clickOnNationality()
 	{

@@ -1,49 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+<testng-results ignored="3" total="4" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-05-31T14:24:01 IST" name="Default suite" finished-at="2022-05-31T14:25:52 IST" duration-ms="111259">
+  <suite started-at="2022-06-13T18:26:16 IST" name="Failed suite [Failed suite [Suite]]" finished-at="2022-06-13T18:26:53 IST" duration-ms="36991">
     <groups>
     </groups>
-    <test started-at="2022-05-31T14:24:01 IST" name="Default test" finished-at="2022-05-31T14:25:52 IST" duration-ms="111259">
+    <test started-at="2022-06-13T18:26:16 IST" name="Test(failed)(failed)" finished-at="2022-06-13T18:26:53 IST" duration-ms="36991">
       <class name="TestPack.TestNGLoginPage">
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestPack.TestNGLoginPage@123ef382]" started-at="2022-05-31T14:24:01 IST" name="beforeMethod" finished-at="2022-05-31T14:24:18 IST" duration-ms="16491" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestPack.TestNGLoginPage@7334aada]" started-at="2022-06-13T18:26:16 IST" name="beforeMethod" finished-at="2022-06-13T18:26:32 IST" duration-ms="15589" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:TestPack.TestNGLoginPage@123ef382]" started-at="2022-05-31T14:24:18 IST" name="beforeClass" finished-at="2022-05-31T14:24:20 IST" duration-ms="2450" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:TestPack.TestNGLoginPage@7334aada]" started-at="2022-06-13T18:26:32 IST" name="beforeClass" finished-at="2022-06-13T18:26:34 IST" duration-ms="2254" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestPack.TestNGLoginPage@123ef382]" started-at="2022-05-31T14:24:20 IST" name="beforeMethod" finished-at="2022-05-31T14:24:36 IST" duration-ms="16000" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestPack.TestNGLoginPage@7334aada]" started-at="2022-06-13T18:26:34 IST" name="beforeMethod" finished-at="2022-06-13T18:26:48 IST" duration-ms="13790" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="testA()[pri:0, instance:TestPack.TestNGLoginPage@123ef382]" started-at="2022-05-31T14:24:36 IST" name="testA" finished-at="2022-05-31T14:24:44 IST" duration-ms="7686" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testA -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestPack.TestNGLoginPage@123ef382]" started-at="2022-05-31T14:24:44 IST" name="afterMethod" finished-at="2022-05-31T14:24:47 IST" duration-ms="3214" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestPack.TestNGLoginPage@123ef382]" started-at="2022-05-31T14:24:47 IST" name="beforeMethod" finished-at="2022-05-31T14:25:02 IST" duration-ms="15041" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="testB()[pri:0, instance:TestPack.TestNGLoginPage@123ef382]" started-at="2022-05-31T14:25:02 IST" name="testB" finished-at="2022-05-31T14:25:12 IST" duration-ms="9669" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testB -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestPack.TestNGLoginPage@123ef382]" started-at="2022-05-31T14:25:12 IST" name="afterMethod" finished-at="2022-05-31T14:25:15 IST" duration-ms="3403" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestPack.TestNGLoginPage@123ef382]" started-at="2022-05-31T14:25:15 IST" name="beforeMethod" finished-at="2022-05-31T14:25:30 IST" duration-ms="14736" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="testC()[pri:0, instance:TestPack.TestNGLoginPage@123ef382]" started-at="2022-05-31T14:25:30 IST" name="testC" finished-at="2022-05-31T14:25:30 IST" duration-ms="8" status="FAIL">
+        <test-method signature="testC()[pri:0, instance:TestPack.TestNGLoginPage@7334aada]" started-at="2022-06-13T18:26:48 IST" name="testC" finished-at="2022-06-13T18:26:48 IST" duration-ms="31" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[null]]>
@@ -85,23 +61,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testC -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestPack.TestNGLoginPage@123ef382]" started-at="2022-05-31T14:25:30 IST" name="afterMethod" finished-at="2022-05-31T14:25:33 IST" duration-ms="3577" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestPack.TestNGLoginPage@7334aada]" started-at="2022-06-13T18:26:48 IST" name="afterMethod" finished-at="2022-06-13T18:26:53 IST" duration-ms="5210" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestPack.TestNGLoginPage@123ef382]" started-at="2022-05-31T14:25:33 IST" name="beforeMethod" finished-at="2022-05-31T14:25:49 IST" duration-ms="15335" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="testD()[pri:0, instance:TestPack.TestNGLoginPage@123ef382]" started-at="2022-05-31T14:25:49 IST" name="testD" finished-at="2022-05-31T14:25:49 IST" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testD -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestPack.TestNGLoginPage@123ef382]" started-at="2022-05-31T14:25:49 IST" name="afterMethod" finished-at="2022-05-31T14:25:52 IST" duration-ms="3526" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="Screenshots(org.testng.ITestResult)[pri:0, instance:TestPack.TestNGLoginPage@123ef382]" started-at="2022-05-31T14:25:52 IST" name="Screenshots" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1653987352759" status="FAIL">
+        <test-method is-config="true" signature="Screenshots(org.testng.ITestResult)[pri:0, instance:TestPack.TestNGLoginPage@7334aada]" started-at="2022-06-13T18:26:53 IST" name="Screenshots" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1655125013695" status="FAIL">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
@@ -141,11 +105,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Screenshots -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:TestPack.TestNGLoginPage@123ef382]" started-at="2022-05-31T14:25:52 IST" name="afterTest" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1653987352769" status="SKIP">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:TestPack.TestNGLoginPage@7334aada]" started-at="2022-06-13T18:26:53 IST" name="afterTest" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1655125013704" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- TestPack.TestNGLoginPage -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test(failed)(failed) -->
+  </suite> <!-- Failed suite [Failed suite [Suite]] -->
 </testng-results>
